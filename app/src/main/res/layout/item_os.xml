@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_700"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtClient"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cliente"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtDescripition"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricao"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtResolotion"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resolutio"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtTecnico"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtDateStart"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_inicial"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtDateEnd"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_finalizao"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtValue"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

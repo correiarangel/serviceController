@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Serviço Controller</string>
+    <string name="digite_cliente">Digite um Cliente</string>
+    <string name="cliente">Cliente:</string>
+    <string name="descricao">Descrição:</string>
+    <string name="digite_descricao">Digite descrição</string>
+    <string name="resolutio">Resolução:</string>
+    <string name="descreva_resolution">Descreva como resolveu</string>
+    <string name="data_inicial">Data Inicial:</string>
+    <string name="digite_data_inicial">Digite data inicial</string>
+    <string name="data_finalizao">Data Finalização:</string>
+    <string name="digite_data_final">Digite data final</string>
+    <string name="tecnico">Técnico:</string>
+    <string name="digite_tecnico">Digite técnico</string>
+    <string name="valor">Valor R$:</string>
+    <string name="btn_salvar">SALVAR</string>
+    <string name="btnExcluir">EXCLUIR</string>
+    <string name="ordem_servico">Ordem de Serviço</string>
+    <string name="botao_flutuante">Botão Flutuante</string>
+</resources>
